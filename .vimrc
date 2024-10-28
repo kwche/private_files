@@ -1,3 +1,6 @@
+set number
+set hlsearch
+
 "vim更改注释颜色为天蓝色
 hi comment ctermfg=6
 
@@ -56,4 +59,5 @@ filetype plugin indent on
 "打开文件类型检测, 加了这句才可以用智能补全
 set completeopt=longest,menu
 set path+=/data1/zhangbin36/sdr/srsRAN-master/lib/include
+
 
